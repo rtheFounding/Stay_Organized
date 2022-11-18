@@ -2,7 +2,7 @@ const base = "http://localhost:8083/api/";
 
 const name = document.getElementById("name");
 const username = document.getElementById("username");
-const add = document.getElementById("add");
+const addBtn = document.getElementById("add");
 const password = document.getElementById("password");
 const passwordAgain = document.getElementById("passwordAgain");
 const message = document.getElementById("message");
@@ -37,7 +37,7 @@ function validateUsername() {
   return isValid;
 }
 
-add.addEventListener("click", (e) => {
+addBtn.addEventListener("click", (e) => {
   clearMessage();
   if (validateUsername() && validatePassword()) {
     //SAVE

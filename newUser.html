@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/newUser.css">
+    <title>New User</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/2490402.png" width="30" class="logo" />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="todos.html">ToDo List</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <h1>Add User</h1>
+        <form>
+            <label>
+                Full Name:<br>
+                <input id="name">
+            </label><br><br>
+            <label>
+                Username:<br>
+                <input id="username">
+            </label><br><br>
+            <label>
+                Password:<br>
+                <input id="password" type="password">
+            </label><br><br>
+            <label>
+                Password Again:<br>
+                <input id="passwordAgain" type="password">
+            </label><br><br>
+        </form>
+        <div id="message" style="color:darkred;background:darkgoldenrod;"></div><br>
+        <button id="add">Add User</button>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+<script src="scripts/newUser.js"></script>
+</html>
+
+</html>
