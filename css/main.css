@@ -1,0 +1,57 @@
+table,
+th,
+td {
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#addTask {
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    border-style: solid;
+    padding: 0.3rem;
+}
+
+#btn {
+    margin-bottom: 1rem;
+}
+#btn a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.container {
+    text-align: center;
+}
+
+#label {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+body {
+    background-color: rgb(52, 115, 187);
+}

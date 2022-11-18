@@ -1,0 +1,48 @@
+form {
+    text-align: center;
+}
+
+#taskDescription {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#taskDeadline {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(52, 115, 187);
+}
+
+form label {
+    font-size: 30px;
+}
+
+select,
+label {
+    display: block;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+}
+
+.buttons {
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+}
